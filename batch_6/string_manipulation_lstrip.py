@@ -6,6 +6,10 @@ def remove_leading_spaces(text): #defines a function
         
     return ""
 
+input_text = "   Hello sir, Danilo"
+print(f"Original text: {repr(input_text)}") #Original text
+print(f"Formatted text: {repr(remove_leading_spaces(input_text))}") #Formatted text
+
 
 
 
